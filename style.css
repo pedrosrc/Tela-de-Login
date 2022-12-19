@@ -71,7 +71,6 @@ body{
     color: white;
     border-radius: 10px;
     padding: 10px;
-    
     margin-left: 40%;
 
     
@@ -81,7 +80,7 @@ body{
 .login .user input:valid ~ label{
     top: -20px;
     left: 0;
-    color: rgb(14, 14, 128);
+    color: rgb(0, 58, 167);
     font-size: 12px;
 }
 
