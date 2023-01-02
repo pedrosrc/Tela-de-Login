@@ -26,7 +26,7 @@ function logar(){
     }else if (input.length > 1 || input_pass.length > 1 ){
         resp.innerHTML=("Você está logado!")
         design()
-        
+        window.location.assign("https://github.com/apenasopedro/Tela-de-Login")
         
     }
 }
@@ -42,6 +42,7 @@ function cadastrar(){
     }else if (input_name.length > 1 || input_user.length > 1 || input.length > 1 || input_pass.length > 1 ){
         resp.innerHTML=("Você está Cadastrado!")
         design()
+        window.location.replace("https://apenasopedro.github.io/Tela-de-Login/")
        
         
     }
