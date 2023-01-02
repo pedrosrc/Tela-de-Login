@@ -24,11 +24,15 @@ h1{
     font-family: 'Share Tech',Arial, Helvetica, sans-serif;
     transform: translate(-50%)
 }
+#cad {
+    margin-top: 3%;
+    max-width: 50%;
+}
 .login{
     background-color: white;
     width: 400px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 40px;
@@ -36,13 +40,13 @@ h1{
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.397);
 }
-.login h2{
+
+.login #head h2{
     text-align: center;
     color: rgb(4, 4, 46);
-    margin: 0 0 30px;
-    padding: 0;
     font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
-    
+    font-family: 20px;
+    margin-bottom: 20px;
 }
 .login .user{
     position: relative;
@@ -69,7 +73,7 @@ h1{
     pointer-events: none;
     font-family: 'Teko',Arial, Helvetica, sans-serif;
 }
-.login form a{
+.login form button{
     text-align:center;
     text-decoration: none;
     font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
@@ -84,7 +88,7 @@ h1{
 
     
 }
-.login form a:hover{
+.login form button:hover{
     background-color: rgb(3, 68, 68);
     color: white;
     transition: .2s;
@@ -132,11 +136,17 @@ fieldset.separator{
     max-width: 14px;
     margin-right: 3px;
 }
-footer{
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.cadastro{
     
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.cadastro a{
+    color: rgb(25, 109, 158);
+    
 }
