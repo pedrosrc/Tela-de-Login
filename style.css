@@ -12,6 +12,7 @@ body{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    height: 100%;
 }
 
 h1{
@@ -25,7 +26,7 @@ h1{
     transform: translate(-50%)
 }
 #cad {
-    margin-top: 3%;
+    margin-top: 2%;
     max-width: 50%;
 }
 .login{
@@ -35,7 +36,7 @@ h1{
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.397);
@@ -47,6 +48,7 @@ h1{
     font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
     font-family: 20px;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 .login .user{
     position: relative;
@@ -145,8 +147,27 @@ a{
     
     text-align: center;
     margin-top: 20px;
+    
 }
 .cadastro a{
     color: rgb(25, 109, 158);
     
+}
+footer{
+    text-align: center;
+    color: rgb(47, 153, 167);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top: 2px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(47, 153, 167);
+}
+footer a:hover{
+    color: rgb(247, 247, 94);
+    transition: .2s;
+    transform: translate(-50%,-50%)
 }
